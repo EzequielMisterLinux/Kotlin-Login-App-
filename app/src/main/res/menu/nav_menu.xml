@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/icon_home"
+            android:title="Home">
+
+        </item>
+
+        <item
+            android:id="@+id/nav_ajustes"
+            android:icon="@drawable/icon_settings"
+            android:title="Settings">
+
+        </item>
+
+        <item
+            android:id="@+id/nav_compartir"
+            android:icon="@drawable/icon_share"
+            android:title="Share">
+
+        </item>
+
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@drawable/icon_about"
+            android:title="About">
+
+        </item>
+    </group>
+    <item
+        android:title="">
+
+
+        <menu>
+            <item
+                android:id="@+id/nav_salir"
+                android:icon="@drawable/icon_exit"
+                android:title="Exit">
+
+            </item>
+        </menu>
+    </item>
+</menu>
